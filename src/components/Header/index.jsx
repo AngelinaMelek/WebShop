@@ -1,5 +1,6 @@
 import Logo from './Logo';
 import UserInfo from './UserInfo';
+import './Header.css';
 
 function Header() {
   return (

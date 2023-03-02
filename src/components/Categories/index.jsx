@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import categoriesData from './categories.json';
 import CategoryItem from './CategoryItem';
+import './Categories.css'
 
 function Categories() {
   const [categories] = useState([...categoriesData]);
