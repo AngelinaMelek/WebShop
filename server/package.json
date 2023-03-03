@@ -1,0 +1,26 @@
+{
+  "name": "demo-back-marathon-2023-03",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.18.1",
+    "node-json-db": "1.6.0",
+    "uuid": "8.3.2"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "nodemon": "2.0.19"
+  },
+  "keywords": [],
+  "description": "",
+  "nodemonConfig": {
+    "ignore": [
+      "models/*.json"
+    ]
+  }
+}

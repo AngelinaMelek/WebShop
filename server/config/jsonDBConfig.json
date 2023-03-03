@@ -1,0 +1,8 @@
+{
+  "development": {
+    "file": "dev_db.json"
+  },
+  "production": {
+    "file": "prod_db.json"
+  }
+}
